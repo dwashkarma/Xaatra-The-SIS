@@ -1,0 +1,85 @@
+.home {
+    padding: 0;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    min-height: 90vh;
+    height: auto;
+
+}
+
+:root {
+    --dark: black;
+    --primary: rgb(47, 10, 122);
+    --secondary: #ccc;
+    --red: rgb(237, 42, 24);
+    --green: rgb(5, 186, 35);
+    --light: white;
+
+
+}
+
+.component {
+    background-color: #ccc;
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+.details {
+    border-collapse: collapse;
+    background-color: var(--secondary);
+
+    margin-top: 25px;
+    width: auto;
+    max-width: auto;
+    margin: auto;
+    box-shadow: rgb(89, 89, 89) 5px 2px 13px;
+    padding: 12px 15px;
+}
+
+.details tbody tr:last-of-type {
+    border-bottom: 1px solid #f63997;
+}
+
+.details h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(37, 36, 36);
+    font-weight: 900;
+    text-align: center;
+    font-size: 35px;
+}
+
+.details thead tr {
+    background-color: var(--primary);
+    color: #fff;
+
+}
+
+.details th,
+.details td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.details tbody tr:hover {
+    background-color: var(--green);
+    color: white;
+}
+
+.btn {
+    margin: 6px 6px;
+    color: #ccc;
+    padding: 5px 5px;
+    border-radius: 15% 15%;
+    cursor: pointer;
+    font-size: 1rem;
+    border: none;
+    display: inline-block;
+
+
+
+}
